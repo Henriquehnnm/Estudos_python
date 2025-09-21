@@ -1,0 +1,5 @@
+n = input('Digite um valor: ')
+print(f'O valor {n} é um numero? Res =', n.isnumeric())
+print(f'O valor {n} é uma letra? Res =', n.isalpha())
+print(f'O valor {n} é alphanumério? Res =', n.isalnum())
+print(f'O valor {n} é ASCII? Res =', n.isascii())
